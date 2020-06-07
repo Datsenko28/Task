@@ -40,7 +40,7 @@ console.log(maxSum[0]);
 
 
 //Найти min
-let minSum = [1,NaN,3,5,-3];
+let minSum = [1,undefined,3,5,-3];
     for (let i = 0; i < minSum.length; i++) {
         if(minSum[i] < minSum[0]){
             minSum[0] = minSum[i];
