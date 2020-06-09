@@ -18,7 +18,7 @@
 //  Найти sum
 let num = [-5,5,true,null];
 let sum = 0; 
-for (var i = 0, len = num.length; i < len; i++) {
+for (let i = 0, len = num.length; i < len; i++) {
     
     if ( typeof num[i] === 'number' ) {
         sum += num[i]; 
