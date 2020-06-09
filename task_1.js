@@ -10,23 +10,21 @@
 [1,7,3]
 [1,undefined,3,5,-3]
 [1,NaN,3,5,-3]
+[-5,5,true,null]
 */
 
 
 
 //  Найти sum
-/*
-let numbers = [ -1,-8,-2];
+let num = [-5,5,true,null];
 let sum = 0; 
-for (let i = 0; i < numbers.length; i++) { 
-  if (numbers[i] > 0) {
-      sum += numbers[i]; 
+for (var i = 0, len = num.length; i < len; i++) {
     
-  } 
-
+    if ( typeof num[i] === 'number' ) {
+        sum += num[i]; 
+    }
 }
-console.log(sum);
-*/
+console.log( sum ); 
 
 
 //Найти max
@@ -47,8 +45,6 @@ let minSum = [1,undefined,3,5,-3];
     }
 }
 console.log(minSum[0]);
-
-
 
 
 
